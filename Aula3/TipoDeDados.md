@@ -46,3 +46,6 @@ Qualquer valor inteiro pode ser apresentado em octal com o uso do formato %o.
 | `%X`   | Ler ou escrever um número em hexadecimal com letras maiúsculas |
 | `%%`   | Escrever o símbolo `%`                               |
 | `%p`   | Ler ou escrever um ponteiro                          |
+
+
+
