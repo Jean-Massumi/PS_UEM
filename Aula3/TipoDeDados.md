@@ -49,3 +49,58 @@ Qualquer valor inteiro pode ser apresentado em octal com o uso do formato %o.
 
 
 
+### OPERADORES: usados para criar expressões aritméticas, expressões relacionais e expressões lógicas
+
+#### OPERADORES ARITMÉTICOS
+
+| Operador | Operação         |
+|----------|------------------|
+| `+`      | soma             |
+| `-`      | subtração        |
+| `*`      | multiplicação    |
+| `/`      | divisão inteira  |
+| `%`      | módulo           |
+| `++`     | incremento       |
+| `--`     | decremento       |
+
+
+#### OPERADORES RELACIONAIS
+
+Produz 1 (true) ou 0 (false)
+
+| Operador | Operação          |
+|----------|-------------------|
+| `==`     | igual             |
+| `!=`     | diferente         |
+| `>`      | maior do que      |
+| `<`      | menor do que      |
+| `>=`     | maior ou igual    |
+| `<=`     | menor ou igual    |
+
+
+#### OPERADORES LÓGICOS
+
+Usados para conectar valores lógicos (expressões lógicas). Produz 1 (true) ou 0 (false)
+
+| Operador | Operação |
+|----------|----------|
+| `&&`     | AND (E)  |
+| `||`     | OR (OU)  |
+| `!`      | NOT (NÃO)|
+
+
+#### OPERADORES BITWISE
+
+Operam diretamente sobre os bits (binários) de um valor inteiro armazenado na memória. São operadores aritméticos.
+
+| Operador | Operação                                    |
+|----------|---------------------------------------------|
+| `&`      | AND aritmético                              |
+| `|`      | OR aritmético                               |
+| `^`      | XOR aritmético                              |
+| `~`      | NOT aritmético (unário)                     |
+| `<<`     | Deslocamento (shift) de bits para esquerda  |
+| `>>`     | Deslocamento (shift) de bits para direita   |
+
+
+

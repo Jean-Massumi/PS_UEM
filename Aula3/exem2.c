@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// Entendendo o ponteiro e endereços
+
 void main (){
     int* p1;
     float* p2;
@@ -10,7 +12,7 @@ void main (){
     double c = 10.0/3;
     printf("\n");
 
-    printf("Valores Anteriores dos Endereços apontados pelos Ponteiros: ");
+    printf("Valores Anteriores dos Endereços apontados pelos Ponteiros:\n");
     printf("Valor p1 = %p \n", p1);
     printf("Valor p2 = %p \n", p2);
     printf("Valor p3 = %p \n", p3);
@@ -20,7 +22,7 @@ void main (){
     p2 = &b;
     p3 = &c;
 
-    printf("Valores Após atribuição dos Endereços apontados pelos Ponteiros:\n ");
+    printf("Valores Após atribuição dos Endereços apontados pelos Ponteiros:\n");
     printf("Valor p1 = %p \n", p1);
     printf("Valor p2 = %p \n", p2);
     printf("Valor p3 = %p \n", p3);
@@ -37,10 +39,3 @@ void main (){
     printf("Valor de c = %p \n \n ", &c);
 
 }
-
-
-
-
-
-
-
