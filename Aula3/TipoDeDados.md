@@ -26,6 +26,7 @@ Qualquer valor inteiro pode ser apresentado em hexadecimal com o uso do formato 
 (letras maiusculas).
 Qualquer valor inteiro pode ser apresentado em octal com o uso do formato %o.
 
+<br>
 
 ### FORMATOS USADOS em `printf` e `scanf`
 
@@ -48,6 +49,7 @@ Qualquer valor inteiro pode ser apresentado em octal com o uso do formato %o.
 | `%p`   | Ler ou escrever um ponteiro                          |
 
 
+<br>
 
 ### OPERADORES: usados para criar expressões aritméticas, expressões relacionais e expressões lógicas
 
