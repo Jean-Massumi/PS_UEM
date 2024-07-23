@@ -85,7 +85,7 @@ Usados para conectar valores lógicos (expressões lógicas). Produz 1 (true) ou
 | Operador | Operação |
 |----------|----------|
 | `&&`     | AND (E)  |
-| `||`     | OR (OU)  |
+| `\|\|`     | OR (OU)  |
 | `!`      | NOT (NÃO)|
 
 
@@ -96,7 +96,7 @@ Operam diretamente sobre os bits (binários) de um valor inteiro armazenado na m
 | Operador | Operação                                    |
 |----------|---------------------------------------------|
 | `&`      | AND aritmético                              |
-| `|`      | OR aritmético                               |
+| `\|`      | OR aritmético                               |
 | `^`      | XOR aritmético                              |
 | `~`      | NOT aritmético (unário)                     |
 | `<<`     | Deslocamento (shift) de bits para esquerda  |
